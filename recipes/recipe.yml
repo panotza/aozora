@@ -59,12 +59,32 @@ modules:
       - hyprpaper
       - hyprlock
       - hypridle
+      - pavucontrol
+      - xdg-user-dirs
+      - xfce-polkit
+
+      # screenshot
+      - slurp
+      - grim
+
+      # display
+      - wlr-randr
+      - wlsunset
+      - brightnessctl
+      - ddccontrol
+
+      # notifications
+      - dunst
+
+      # theme and GUI
+      - fontawesome-fonts-all
 
       # networking
       - network-manager-applet
 
       # sound
       - pipewire
+      - wireplumber
 
       # file manager
       - thunar
@@ -86,22 +106,8 @@ modules:
       - distrobox
       - neovim
       - virt-manager
-
-      # screenshot
-      - slurp
-      - grim
-
-      # display
-      - wlr-randr
-      - wlsunset
-      - brightnessctl
-      - kanshi
-
-      # notifications
-      - dunst
-
-      # theme and GUI
-      - fontawesome-fonts-all
+      - fzf
+      - ripgrep
 
     remove:
       - firefox
