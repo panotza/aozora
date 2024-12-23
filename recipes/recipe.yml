@@ -105,6 +105,8 @@ modules:
       - neovim
       - libvirt
 
+      # utilities
+      - libratbag-ratbagd
     remove:
       - firefox
       - firefox-langpacks
@@ -114,6 +116,7 @@ modules:
     system:
       enabled:
         - sddm-boot.service
+        - ratbagd.service
 
   - type: default-flatpaks
     notify: true # Send notification after install/uninstall is finished (true/false)
