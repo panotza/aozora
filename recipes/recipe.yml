@@ -103,7 +103,7 @@ modules:
       - git
       - distrobox
       - neovim
-      - virt-manager
+      - libvirt
 
     remove:
       - firefox
@@ -114,7 +114,6 @@ modules:
     system:
       enabled:
         - sddm-boot.service
-        - libvirtd
 
   - type: default-flatpaks
     notify: true # Send notification after install/uninstall is finished (true/false)
