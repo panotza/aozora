@@ -79,6 +79,9 @@ modules:
 
       # networking
       - network-manager-applet
+      - bluez
+      - bluez-tools
+      - blueman
 
       # sound
       - pipewire
