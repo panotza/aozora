@@ -60,6 +60,9 @@ modules:
       - pavucontrol
       - xdg-user-dirs
       - xfce-polkit
+      - xorg-x11-server-Xwayland
+      - kwallet
+      - pam-kwallet
 
       # screenshot
       - slurp
@@ -79,8 +82,6 @@ modules:
 
       # networking
       - network-manager-applet
-      - bluez
-      - bluez-tools
       - blueman
 
       # sound
