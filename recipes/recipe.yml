@@ -86,6 +86,7 @@ modules:
       # sound
       - pipewire
       - wireplumber
+      - pipewire-pulseaudio #  pulseaduio compatibility layer
 
       # file manager
       - thunar
