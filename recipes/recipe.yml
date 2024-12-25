@@ -49,6 +49,8 @@ modules:
   - type: rpm-ostree
     install:
       # Desktop enviroment
+      - qt5-wayland
+      - qt6-wayland
       - sddm
       - sddm-themes
       - hyprland
@@ -60,6 +62,7 @@ modules:
       - pavucontrol
       - xdg-user-dirs
       - xfce-polkit
+      - xwaylandvideobridge
       - xorg-x11-server-Xwayland
       - kwallet
       - pam-kwallet
@@ -102,6 +105,9 @@ modules:
       - gvfs-fuse
       - gvfs-archive
       - android-tools
+
+      # multimedia
+      - mpv
 
       # development
       - git
