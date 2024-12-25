@@ -49,8 +49,8 @@ modules:
   - type: rpm-ostree
     install:
       # Desktop enviroment
-      - qt5-wayland
-      - qt6-wayland
+      - qt5-qtwayland
+      - qt6-qtwayland
       - sddm
       - sddm-themes
       - hyprland
