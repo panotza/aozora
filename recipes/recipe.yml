@@ -67,6 +67,7 @@ modules:
       # screenshot
       - slurp
       - grim
+      - wf-recorder
 
       # display
       - wlr-randr
@@ -74,8 +75,9 @@ modules:
       - brightnessctl
       - ddccontrol
 
-      # theme and GUI
+      # fonts
       - fontawesome-fonts-all
+      - google-noto-emoji-fonts
 
       # networking
       - network-manager-applet
