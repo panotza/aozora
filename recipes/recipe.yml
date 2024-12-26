@@ -49,6 +49,7 @@ modules:
   - type: rpm-ostree
     install:
       # Desktop enviroment
+      - tuned-ppd
       - qt5-qtwayland
       - qt6-qtwayland
       - sddm
