@@ -57,6 +57,8 @@ modules:
       - waybar
       - pavucontrol
       - xdg-user-dirs
+      - dbus-tools
+      - dbus-daemon
       - xwaylandvideobridge
       - xorg-x11-server-Xwayland
       - kwallet
@@ -78,11 +80,13 @@ modules:
       # networking
       - network-manager-applet
       - blueman
+      - firewall-config
 
       # sound
       - pipewire
       - wireplumber
       - pipewire-pulseaudio #  pulseaduio compatibility layer
+      - alsa-firmware
 
       # file manager
       - thunar
@@ -91,6 +95,7 @@ modules:
       - xarchiver
       - imv
       - p7zip
+      - unrar
       - gvfs-mtp
       - gvfs-gphoto2
       - gvfs-smb
@@ -123,6 +128,9 @@ modules:
       - hypridle
       - hyprpolkitagent
       - hyprsunset
+      - hyprsysteminfo
+      - cliphist
+      - nwg-look
 
   # notifications
   - type: rpm-ostree
