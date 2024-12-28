@@ -58,6 +58,7 @@ modules:
       - sddm
       - sddm-themes
       - waybar
+      - wlogout
       - pavucontrol
       - xdg-user-dirs
       - dbus-tools
@@ -106,6 +107,7 @@ modules:
       - gvfs-fuse
       - gvfs-archive
       - android-tools
+      - wlogout # automatically mounting 
 
       # multimedia
       - mpv
