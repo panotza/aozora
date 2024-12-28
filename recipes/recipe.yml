@@ -31,6 +31,9 @@ modules:
       - libfdk-aac
       - gstreamer1-plugins-bad
       - gstreamer1-plugins-ugly 
+      - mesa-vdpau-drivers
+      - libva-utils
+      - vdpauinfo
     remove:
       - gstreamer1-plugins-bad-free
       - gstreamer1-plugins-bad-free-libs
