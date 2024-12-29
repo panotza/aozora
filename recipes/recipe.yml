@@ -118,8 +118,6 @@ modules:
       - neovim
 
     remove:
-      # - firefox
-      # - firefox-langpacks
       - toolbox
 
   - type: rpm-ostree
@@ -148,14 +146,6 @@ modules:
     system:
       enabled:
         - sddm-boot.service
-
-  # - type: default-flatpaks
-    # notify: true # Send notification after install/uninstall is finished (true/false)
-    # system:
-      # If no repo information is specified, Flathub will be used by default
-      # install:
-        # - org.mozilla.firefox
-    # user: {} # Also add Flathub user repo, but no user packages
 
   - type: signing # this sets up the proper policy & signing files for signed images to work fully
 
