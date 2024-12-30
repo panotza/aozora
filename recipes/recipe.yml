@@ -116,6 +116,7 @@ modules:
       - git
       - distrobox
       - neovim
+      - stow
 
     remove:
       - toolbox
