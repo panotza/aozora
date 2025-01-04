@@ -67,6 +67,7 @@ modules:
       - xorg-x11-server-Xwayland
       - kwallet
       - pam-kwallet
+      - inotify-tools
 
       # screenshot
       - slurp
